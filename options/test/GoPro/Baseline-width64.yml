@@ -18,11 +18,11 @@ datasets:
     name: gopro-test
     type: PairedImageDataset
 
-    dataroot_gt: ./datasets/GoPro/test/target.lmdb
-    dataroot_lq: ./datasets/GoPro/test/input.lmdb
+    dataroot_gt: /content/drive/MyDrive/Solinas /target-20220809T141927Z-001.zip
+    dataroot_lq: /content/drive/MyDrive/Solinas /inputs-20220809T141920Z-001.zip
 
     io_backend:
-      type: lmdb
+      type: zip
 
 # network structures
 network_g:
